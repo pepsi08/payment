@@ -1,0 +1,27 @@
+{
+    "name": "paymentapi/payment",
+    "type": "library",
+    "description": "Payment API.",
+    "keywords": ["payment"],
+    "homepage": "https://github.com/pepsi08/converter.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nik",
+            "email": "pepsi_08@list.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.5|~7.0",
+        "laravelcollective/html": "5.2.*",
+        "propaganistas/laravel-phone": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ivanchenko\\Payment\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
